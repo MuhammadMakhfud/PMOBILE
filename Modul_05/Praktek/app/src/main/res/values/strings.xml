@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktik</string>
+    <string name="lbList">Button</string>
+    <string name="imglist">imgList</string>
+    <string name="lblist">lbList</string>
+    <string name="todo">TODO</string>
+</resources>
