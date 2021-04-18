@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PRAKTEK MODUL 7</string>
+    <string name="game_over">Game Over</string>
+    <string name="try_again">Try Again?</string>
+    <string name="android_trivia">Android Trivia</string>
+    <string name="submit_button">Submit</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="about">About</string>
+    <string name="rules">Rules</string>
+    <string name="todo">TODO</string>
+    <string name="nav_header">nav_header</string>
+</resources>
