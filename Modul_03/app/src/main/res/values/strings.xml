@@ -1,0 +1,18 @@
+<resources>
+    <string name="textview">TextView</string>
+    <string name="si_b">SI B</string>
+    <string name="si_a">SI A</string>
+    <string name="si_c">SI C</string>
+    <string name="si_d">SI D</string>
+    <string name="si_e">SI E</string>
+    <string name="si_f">SI F</string>
+    <string name="panggilan">PANGGILAN</string>
+    <string name="status">STATUS</string>
+    <string name="chat">CHAT</string>
+    <string name="kamera">kamera</string>
+    <string name="wa_kw">WA KW</string>
+    <string name="titik">...................................................</string>
+    <string name="pengaturan">pengaturan</string>
+    <string name="cari">cari</string>
+
+</resources>
