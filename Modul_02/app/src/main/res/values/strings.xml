@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Welcome</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="di">Di</string>
+    <string name="universitas_mulawarman">Universitas Mulawarman</string>
+    <string name="fakultas_teknik">Fakultas Teknik</string>
+    <string name="todo">TODO</string>
+</resources>
