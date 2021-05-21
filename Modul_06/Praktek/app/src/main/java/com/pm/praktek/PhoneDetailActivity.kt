@@ -12,11 +12,6 @@ class PhoneDetailActivity  : AppCompatActivity() {
         var intentThatStartedThisActivity = getIntent()
 
             var partID = intentThatStartedThisActivity.getStringExtra(Intent.EXTRA_TEXT)
-            var partNM = intentThatStartedThisActivity.getStringExtra("NM")
-            var partAL = intentThatStartedThisActivity.getStringExtra("AL")
             tv_item_id.text = partID
-            tv_item_nm.text = partNM
-            tv_item_al.text = partAL
-
     }
 }
