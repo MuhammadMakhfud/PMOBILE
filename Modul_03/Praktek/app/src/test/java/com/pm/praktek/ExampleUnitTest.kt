@@ -1,4 +1,4 @@
-package com.makh.modul3
+package com.pm.praktek
 
 import org.junit.Test
 
