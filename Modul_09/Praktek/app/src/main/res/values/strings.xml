@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Praktek - Modul 9</string>
+    <string name="hint_word">Kata...</string>
+    <string name="button_save">Simpan</string>
+    <string name="empty_not_saved">Kata tidak dapat disimpan karena kosong.</string>
+    <string name="todo">TODO</string>
+</resources>
