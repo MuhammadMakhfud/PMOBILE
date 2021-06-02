@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
+        android:layout_marginTop="100dp"
+        android:background="#FFFFFF"
+        app:srcCompat="@drawable/ic_baseline_edit_note_24" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="70dp"
+        android:text="NoteKu"
+        android:textColor="#009688"
+        android:textSize="40sp" />
+
+    <ProgressBar
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:max="100"
+        android:paddingLeft="30dp"
+        android:paddingRight="20dp"
+        android:progressTint="#009688" />
+
+</LinearLayout>
