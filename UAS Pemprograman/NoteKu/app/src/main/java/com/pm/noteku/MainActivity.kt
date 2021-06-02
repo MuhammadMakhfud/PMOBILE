@@ -9,9 +9,11 @@ import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-
+import kotlinx.android.synthetic.main.activity_create_note.*
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_main.toolbar
 import java.util.*
+import kotlin.collections.ArrayList
 
 
 class MainActivity : AppCompatActivity(), onClickItemListener {
@@ -20,8 +22,9 @@ class MainActivity : AppCompatActivity(), onClickItemListener {
     private var noteAdapter: NoteAdapter? = null
     private var onClickPosition = -1
 
+
     @SuppressLint("Assert")
-    override fun onCreate(savedInstanceState: Bundle?) {
+    override fun onCreate( savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
@@ -35,11 +38,10 @@ class MainActivity : AppCompatActivity(), onClickItemListener {
         noteAdapter = NoteAdapter(modelNoteList, this)
         rvListNote.setAdapter(noteAdapter)
 
-        //change mode List to Grid
         modeGrid()
 
-        //get Data Catatan
         getNote(REQUEST_SHOW, false)
+
     }
 
     private fun modeGrid() {
@@ -85,10 +87,12 @@ class MainActivity : AppCompatActivity(), onClickItemListener {
         super.onActivityResult(requestCode, resultCode, data)
         if (requestCode == REQUEST_ADD && resultCode == RESULT_OK) {
             getNote(REQUEST_ADD, false)
+
         } else if (requestCode == REQUEST_UPDATE && resultCode == RESULT_OK) {
             if (data != null) {
                 getNote(REQUEST_UPDATE, data.getBooleanExtra("NoteDelete", false))
             }
+
         }
     }
 

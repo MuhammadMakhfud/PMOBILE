@@ -38,11 +38,8 @@ class CreateNoteActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_create_note)
 
-        //EEEE, dd MMMM yyyy HH:mm a
-        //Hari, Tanggal bulan tahun, jam a = malam m = pagi
         tvDateTime.setText("Terakhir diubah : " + SimpleDateFormat("dd MMMM yyyy", Locale.getDefault()).format(Date()))
 
-        //image Path
         selectImagePath = ""
 
         if (intent.getBooleanExtra("EXTRA", false)) {
